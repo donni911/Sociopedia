@@ -16,16 +16,16 @@ export const colorTokens = {
     1000: "#000000",
   },
   primary: {
-    50: "#E6FBFF",
-    100: "#CCF7FE",
-    200: "#99EEFD",
-    300: "#66E6FC",
-    400: "#33DDFB",
-    500: "#00D5FA",
-    600: "#00A0BC",
-    700: "#006B7D",
-    800: "#00353F",
-    900: "#001519",
+    50: "#E6E6E6",
+    100: "#CCCCCC",
+    200: "#999999",
+    300: "#666666",
+    400: "#333333",
+    500: "#000000",
+    600: "#333", // You can adjust the shades of black and gray here
+    700: "#333",
+    800: "#333",
+    900: "#333",
   },
 };
 
@@ -39,7 +39,7 @@ export const themeSettings = (mode) => {
             // palette values for dark mode
             primary: {
               dark: colorTokens.primary[200],
-              main: colorTokens.primary[500],
+              main: colorTokens.primary[50],
               light: colorTokens.primary[800],
             },
             neutral: {
@@ -104,4 +104,3 @@ export const themeSettings = (mode) => {
     },
   };
 };
-
